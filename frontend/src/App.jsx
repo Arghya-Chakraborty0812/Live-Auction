@@ -3,7 +3,6 @@ import AuctionCard from "./components/AuctionCard/AuctionCard";
 import "./App.css";
 const API = import.meta.env.VITE_BACKEND_URL;
 
-fetch(`${API}/api/items`);
 
 
 function App() {
