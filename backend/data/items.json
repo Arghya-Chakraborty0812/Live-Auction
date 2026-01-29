@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Vintage Watch",
+    "currentBid": 220,
+    "image": "/images/watch.jpeg",
+    "auctionEndTime": 1769957497209,
+    "lastBidder": "NepI1xeGEmug8GIDAAAD"
+  },
+  {
+    "id": 2,
+    "title": "Gaming Headphones",
+    "currentBid": 310,
+    "image": "/images/headphones.webp",
+    "auctionEndTime": 1769870036905,
+    "lastBidder": "uzZjylEwhW8E30uwAAAB"
+  },
+  {
+    "id": 3,
+    "title": "Mechanical Keyboard",
+    "currentBid": 410,
+    "image": "/images/keyboard.jpg",
+    "auctionEndTime": 1771339773946,
+    "lastBidder": "CQK7lh6LBOgq-cLeAAAB"
+  }
+]

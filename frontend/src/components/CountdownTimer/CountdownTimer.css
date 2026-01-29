@@ -1,0 +1,30 @@
+.timer {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0;
+    gap: 20px;      
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  .timer div {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .timer span {
+    font-size: 1.2rem;
+    font-weight:400;
+  }
+  
+  .timer small {
+    display: flex;
+    color: #666;
+  }
+  
+  .ended {
+    color: crimson;
+    font-weight: bold;
+    text-align: center;
+  }
+  
