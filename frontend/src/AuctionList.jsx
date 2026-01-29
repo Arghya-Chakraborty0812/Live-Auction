@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import AuctionCard from "./AuctionCard/AuctionCard";
 
+const API = import.meta.env.VITE_BACKEND_URL;
+
 export default function AuctionList() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/items")
+    fetch(`${API}/api/items`)
       .then(res => res.json())
       .then(data => {
         const itemsWithEndTime = data.map(item => ({

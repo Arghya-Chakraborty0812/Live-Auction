@@ -1,12 +1,16 @@
 import { useEffect, useState } from "react";
 import AuctionCard from "./components/AuctionCard/AuctionCard";
 import "./App.css";
+const API = import.meta.env.VITE_BACKEND_URL;
+
+fetch(`${API}/api/items`);
+
 
 function App() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/items")
+    fetch(`${API}/api/items`)
       .then((res) => res.json())
       .then((data) => setItems(data));
   }, []);
