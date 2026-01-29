@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import AuctionCard from "./components/AuctionCard/AuctionCard";
 import "./App.css";
-const API = import.meta.env.VITE_BACKEND_URL;
+// const API = import.meta.env.VITE_BACKEND_URL;
 
 
 
@@ -9,7 +9,7 @@ function App() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch(`${API}/api/items`)
+    fetch("https://live-auction-6i7e.onrender.com/api/items")
       .then((res) => res.json())
       .then((data) => setItems(data));
   }, []);
